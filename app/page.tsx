@@ -9,12 +9,10 @@ import Services from "@/components/Services";
 const page = () => {
   return (
     <div>
-      <Header />
       <Hero />
       <LogoCloud />
       <HomeAbout />
       <Services />
-
       <InsuranceCards />
     </div>
   );

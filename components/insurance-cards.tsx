@@ -42,7 +42,7 @@ const cards = [
 
 export default function InsuranceCards() {
   return (
-    <section className="md:py-16 px-4 ">
+    <section className="py-8 md:py-16 px-4 ">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
@@ -62,7 +62,7 @@ export default function InsuranceCards() {
         </div>
 
         {/* Card section */}
-        <div className="relative w-full">
+        <div className="relative w-full  pb-16">
           <Carousel>
             <CarouselContent className="-ml-4">
               {cards.map((card, index) => (
